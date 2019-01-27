@@ -160,7 +160,7 @@ void Merge(int *a, int *a1, int n1, int *a2, int n2)
 			a[k++] = a2[j++];	
 }
 
-int BitarySearch(int *a, int n, int item)
+int BinarySearch(int *a, int n, int item)
 {
 	int low = 0;
 	int high = n;
